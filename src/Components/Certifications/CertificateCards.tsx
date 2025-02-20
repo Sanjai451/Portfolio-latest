@@ -12,8 +12,8 @@ const CertificationCard: React.FC<CertificatesCardProps> = ({ title, date, descr
     <div className="relative bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
       {/* Certificate Image with Fade Effect */}
       <div className="relative">
-        <img src={imageUrl} alt={title} className="w-full h-40 object-cover" />
-        <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
+        <img src={imageUrl} alt={title} className="w-full h-52 object-contain" />
+        <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-white to-transparent"></div>
       </div>
 
       {/* Text Content */}
