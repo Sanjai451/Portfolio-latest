@@ -128,7 +128,7 @@ export const certificationsData = [
       badgeurl : 'https://images.credly.com/size/340x340/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png' 
     },
     {
-      badgeurl : 'https://images.credly.com/size/80x80/images/7416ef81-78db-4222-b378-43d9f41c36e1/image.png' 
+      badgeurl : 'https://github.com/Sanjai451/Portfolio-latest/blob/main/src/Images/Badges.png?raw=true' 
     }
   ]
   export default Badges

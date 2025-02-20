@@ -1,6 +1,8 @@
+import { img } from 'framer-motion/client';
 import CertificationCard from '../Components/Certifications/CertificateCards'
 import Footer from '../Components/Footer';
-import { certificationsData } from '../Details/Certifications';
+import Badges, { certificationsData } from '../Details/Certifications';
+
 
 const Certifications = () => {
   return (
@@ -16,6 +18,14 @@ const Certifications = () => {
             imageUrl={cert.imageURL || 'https://images.surferseo.art/f47313e1-87ab-4b8d-ac89-16a5ad41db3c.png'}
           />
         ))}
+      </div>
+      <h2 className="text-3xl font-bold text-center m-8">Badges</h2>
+      <div className="badges">
+        {
+          Badges.map((item)=>(
+            <img className='badgeImage' src={item.badgeurl}/>
+          ))
+        }
       </div>
       <Footer/>
     </div>

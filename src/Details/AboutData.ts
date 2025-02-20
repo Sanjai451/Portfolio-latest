@@ -1,2 +1,5 @@
-const ABOUT_DATA = " I am Sanjai Kumar, a passionate Full-Stack Developer and AI Enthusiast with expertise in MERN, Next.js, Flask, and SQL. I have built various innovative projects, including Blood Bridge, a blood donation and inventory management system, and a Smart Location  Notifier leveraging APIs. I am skilled in Cloud Computing, Cybersecurity, and UI/UX Design, with certifications from AWS, Cisco, and TCS iON. My interests span Machine Learning, AI, and Data Structures & Algorithms (DSA), and I actively participate in hackathons and software contests, securing 2nd place in a Java-based competition. I am seeking internship and job opportunities where I can apply my technical skills to solve real-world problems. Let’s connect and collaborate on cutting-edge technology solutions! 🚀 "
-export default ABOUT_DATA 
+export const ABOUT_DATA1 = "I am Sanjai Kumar, a passionate Full-Stack Developer specializing in MERN, Next.js, Flask, and SQL. "
+export const ABOUT_DATA2 = " With a strong foundation in Data Structures & Algorithms (DSA), I have built innovative projects like Blood Bridge, a blood donation and inventory management system, and a Smart Location Notifier leveraging APIs for real-time alerts."
+export const ABOUT_DATA3 = " I actively participate in hackathons and software contests. 🚀"
+
+// export default {ABOUT_DATA1, ABOUT_DATA2, ABOUT_DATA3}
