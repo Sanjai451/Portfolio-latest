@@ -5,7 +5,6 @@ import About from "./Pages/About";
 import Project from "./Pages/Project";
 import Contact from "./Pages/Contact";
 import './App.css'
-import Footer from "./Components/Footer";
 import Certifications from "./Pages/Certifications";
 
 
