@@ -1,4 +1,3 @@
-import { img } from 'framer-motion/client';
 import CertificationCard from '../Components/Certifications/CertificateCards'
 import Footer from '../Components/Footer';
 import Badges, { certificationsData } from '../Details/Certifications';

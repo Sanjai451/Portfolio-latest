@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import HeroText from "./HeroText";
 import ShowImage from "./AboutSection/ShowImage";
 import TextRotating from "./TextOnHome/TextRotating";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { workExperiences } from "../Details/WorkExperience";
 import { motion } from "framer-motion";
 
