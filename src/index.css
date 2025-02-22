@@ -128,15 +128,19 @@
     padding-left: 10px;
     width: 100vw;
     height: 100vh;
-    top: 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top: 50px;
   }
   .skill_cont{
     margin: 30%;
   }
+}
+.nav_bar{
+  z-index: 19;
 }
 @media (max-width: 1400px) {
   .skill_cont{
@@ -174,7 +178,7 @@
   z-index: 10;
 }
 .rotatingText{
-  width: 220px;
+  width: 200px;
   z-index: 11;
   font-size: 20px;
   font-weight: 600;
@@ -186,7 +190,7 @@
   margin: 10px;
 }
 .rotatingTextHome h1{
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 .details_home{
