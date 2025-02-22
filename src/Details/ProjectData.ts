@@ -21,7 +21,7 @@ const projects: Project[] = [
   {
     id: 2,
     name: "Smart Location Alarm",
-    description: "A blood donation and inventory management system.",
+    description: "Location Alarm that notifies users on their destination using Location Services.",
     technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     image: "https://private-user-images.githubusercontent.com/145897247/328001289-ea4e2781-c5bf-471f-8222-d4c19ad91b4c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAwMzEyNDcsIm5iZiI6MTc0MDAzMDk0NywicGF0aCI6Ii8xNDU4OTcyNDcvMzI4MDAxMjg5LWVhNGUyNzgxLWM1YmYtNDcxZi04MjIyLWQ0YzE5YWQ5MWI0Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIyMFQwNTU1NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMzc3MzU0NGJkYzdlMDY2ZGI1NzAzOTVmODQyZTJlN2U5OGUyODU1ZmU0OTViYTM5ZWFkYzI4YjcxM2NmMDcxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.EIoMXr3LMy3bq3P1kym9SSWkSctNkTMYkSWFP-6ouvE", 
     github: "https://github.com/Sanjai451/Smart-Location-Alarm?tab=readme-ov-file",

@@ -1,11 +1,14 @@
 import { motion } from "framer-motion";
 import projects from '../Details/ProjectData.ts'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ProjectCard from "../Components/ProjectCard.tsx";
 import Footer from "../Components/Footer.tsx";
 
 const Project = () => {
-    const [project, setProjects] = useState(projects)
+    const [project,setProject] = useState(projects)
+    useEffect(()=>{
+        setProject(projects)
+    },[])
   return (
     <motion.div className="p-8" initial={{ y: -100 }} animate={{ y: 0 }}>
         <h2 className="text-3xl font-bold">Projects</h2>
