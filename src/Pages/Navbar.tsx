@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="p-4 nav_bar bg-gray-900 text-white flex justify-between items-center relative">
       {/* Logo */}
       <NavLink to="/" className="hover:text-gray-400 pl-13">
-        <h1 className="text-xl font-bold">My Portfolio</h1>
+        <h1 className="text-xl font-bold">SK</h1>
       </NavLink>
 
       {/* Hamburger Icon (Mobile) */}
