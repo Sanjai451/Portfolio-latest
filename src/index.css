@@ -178,7 +178,7 @@
   z-index: 10;
 }
 .rotatingText{
-  width: 200px;
+  width: 210px;
   z-index: 11;
   font-size: 20px;
   font-weight: 600;
@@ -240,4 +240,7 @@
 }
 .badgeImage{
   max-width: 300px;
+}
+.img_contact{
+  width: 24px;
 }

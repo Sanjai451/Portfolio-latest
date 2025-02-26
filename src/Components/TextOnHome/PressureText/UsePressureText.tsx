@@ -6,7 +6,7 @@ const UsePressureText = () => {
     <div className="pressure_Text" >
     
     <TextPressure
-        text="Hello World!"
+        text="Hello world"
         flex={true}
         alpha={false}
         stroke={false}
