@@ -11,7 +11,10 @@ const Project = () => {
     },[])
   return (
     <motion.div className="p-8" initial={{ y: -100 }} animate={{ y: 0 }}>
-        <h2 className="text-3xl font-bold">Projects</h2>
+        <h1 className="text-4xl font-bold text-center mb-10">🚀 Sanjai Kumar R - Projects</h1>
+        <p className="text-center text-lg mb-10 text-gray-600">
+            Welcome to my central repository that documents all the projects I’ve built during my learning journey as an IT student. This collection showcases full-stack applications, AI tools, research-based solutions, and real-time collaboration platforms.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
             {
                 project.map((p) =>(

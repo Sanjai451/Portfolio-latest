@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="p-4 nav_bar bg-gray-900 text-white flex justify-between items-center relative">
       {/* Logo */}
-      <NavLink to="/" className="hover:text-gray-400 pl-13">
+      <NavLink to="/" className="hover:text-gray-400 pl-7">
         <h1 className="text-xl font-bold">SK</h1>
       </NavLink>
 
