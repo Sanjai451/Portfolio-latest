@@ -139,6 +139,7 @@
     margin: 30%;
   }
 }
+
 .nav_bar{
   z-index: 19;
 }
@@ -243,4 +244,13 @@
 }
 .img_contact{
   width: 24px;
+}
+@media (max-width: 500px) {
+  .custom_rotatingText {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_home{
+    display: none;
+  }
 }

@@ -30,13 +30,13 @@ export interface WorkExperience {
       duration: "Feb 2025 - Feb 2025",
       description: "Completed a Front-End Developer Training internship, gaining expertise in modern UI/UX practices and React development.",
     },
-    {
-      id: 5,
-      role: "Open Source Contributor",
-      company: "GitHub Projects",
-      duration: "Dec 2024 - Present",
-      description: "Contributed to open-source projects, improving docs and adding new features.",
-    },
+    // {
+    //   id: 5,
+    //   role: "Open Source Contributor",
+    //   company: "GitHub Projects",
+    //   duration: "Dec 2024 - Present",
+    //   description: "Contributed to open-source projects, improving docs and adding new features.",
+    // },
    
   ];
   

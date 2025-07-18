@@ -16,8 +16,9 @@ const HeroSection = () => {
             Hey there, explore my journey!
             
           </motion.h1>
-          <div className="rotatingTextHome">
-            <h1>Creative</h1> <TextRotating />
+          <div className="rotatingTextHome custom_rotatingText">
+            <h1>Creative</h1> 
+            <TextRotating />
           </div>
           {/* Subtitle with Animation */}
           <motion.p

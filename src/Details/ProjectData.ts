@@ -16,14 +16,14 @@ const projects: Project[] = [
     technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "MongoDB", "Socket.io"],
     image: "https://cdn.dribbble.com/userupload/25429490/file/original-673f4c2a3ed862ab0a5c79d6e1d46a55.gif", // Example image
     github: "https://github.com/Sanjai451/LetsCollab",
-    website: "https://github.com/Sanjai451/LetsCollab",
+    website: "https://mycodeeditorasdf.netlify.app",
   },
   {
     id: 3,
     name: "Neuro Blink",
     description: "AI-powered system that interprets human eye blinks into actions for hands-free communication.",
     technologies: ["Flask", "OpenCV", "Gemini API", "PyWhatKit", "HTML", "CvZone"],
-    image: "https://private-user-images.githubusercontent.com/145897247/433022602-b7e8968a-14dc-4621-b9de-248c5cf20b06.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQ2MzQxODAsIm5iZiI6MTc0NDYzMzg4MCwicGF0aCI6Ii8xNDU4OTcyNDcvNDMzMDIyNjAyLWI3ZTg5NjhhLTE0ZGMtNDYyMS1iOWRlLTI0OGM1Y2YyMGIwNi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQxNFQxMjMxMjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNzMxYzA1M2M5YzM0Zjg0YmQxMjUyNjU4ZDI0YWFiNTFlYzg4NjdiMzE5Zjk3ZDk4YmM4NWU5YzJmMWE0ZGM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.v8np-kKUho5-cQMkdCJ3iquLkl6MJOgyTE0xF0N-aLA",
+    image: "https://siplab.org/figures/covers/dualblink.jpg",
     github: "https://github.com/Sanjai451/Neuro-Blink?tab=readme-ov-file",
     website: "https://github.com/Sanjai451/Neuro-Blink?tab=readme-ov-file",
   },
@@ -34,7 +34,7 @@ const projects: Project[] = [
     technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     image: "https://cdn.dribbble.com/userupload/21000122/file/original-ee4817abd5716efa3fe1e018bae387c8.gif", 
     github: "https://github.com/Sanjai451/Smart-Location-Alarm?tab=readme-ov-file",
-    website: "https://github.com/Sanjai451/Smart-Location-Alarm?tab=readme-ov-file",
+    website: "https://smart-location-alarm.netlify.app",
   },
 
   {

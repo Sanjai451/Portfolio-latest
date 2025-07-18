@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import ShowImage from "../Components/AboutSection/ShowImage";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { ABOUT_DATA1, ABOUT_DATA2, ABOUT_DATA3 } from "../Details/AboutData";
+import RESUME_LINK from "../Details/ResumeLink";
 
 const About = () => {
   return (
@@ -45,6 +46,12 @@ const About = () => {
           >
             Contact
           </NavLink>
+          <a
+            href= {RESUME_LINK}
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
+            >
+            Get Resume
+            </a>
         </div>
       </motion.div>
     </div>

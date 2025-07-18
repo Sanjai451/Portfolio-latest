@@ -6,7 +6,7 @@ export const skills = [
             type: "Frontend",
         },
         {
-            imageUrl: "https://static-00.iconduck.com/assets.00/java-icon-1511x2048-6ikx8301.png",
+            imageUrl: "https://img.icons8.com/?size=100&id=Pd2x9GWu9ovX&format=png&color=000000",
             name: "Java",
             type: "Frontend",
         },
@@ -31,7 +31,7 @@ export const skills = [
           type: "Backend",
         },
         {
-          imageUrl: "https://static-00.iconduck.com/assets.00/spring-icon-1024x1023-ljxx8bf7.png",
+          imageUrl: "https://img.icons8.com/?size=100&id=90519&format=png&color=000000",
           name: "Spring",
           type: "Backend",
         },
