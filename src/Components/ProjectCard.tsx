@@ -38,22 +38,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             </svg>
             GitHub
           </a>
-          <a
-            href={project.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              className="w-5 h-5"
-            >
-              <path d="M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a1 1 0 1 0-2 0v5H5V5h5a1 1 0 1 0 0-2zm8.293 1.293-7 7a1 1 0 1 0 1.414 1.414l7-7A1 1 0 0 0 18.293 4.293zM15 3a1 1 0 1 0 0 2h5v5a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1h-6z" />
-            </svg>
-            Live Site
-          </a>
+          { String(project.website).length > 3 && 
+            <a
+                href={project.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  className="w-5 h-5"
+                >
+                  <path d="M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a1 1 0 1 0-2 0v5H5V5h5a1 1 0 1 0 0-2zm8.293 1.293-7 7a1 1 0 1 0 1.414 1.414l7-7A1 1 0 0 0 18.293 4.293zM15 3a1 1 0 1 0 0 2h5v5a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1h-6z" />
+                </svg>
+                Live Site
+                {/* { String(project.website).length } */}
+              </a>
+          }
         </div>
       </div>
     </div>

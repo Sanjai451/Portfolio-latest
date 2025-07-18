@@ -25,7 +25,7 @@ const projects: Project[] = [
     technologies: ["Flask", "OpenCV", "Gemini API", "PyWhatKit", "HTML", "CvZone"],
     image: "https://siplab.org/figures/covers/dualblink.jpg",
     github: "https://github.com/Sanjai451/Neuro-Blink?tab=readme-ov-file",
-    website: "https://github.com/Sanjai451/Neuro-Blink?tab=readme-ov-file",
+    website: "",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const projects: Project[] = [
     technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     image: "https://github.com/Sanjai451/Blood-Bridge/blob/main/screenshots/Screenshot%202024-10-20%20154504.png?raw=true", // Example image
     github: "https://github.com/Sanjai451/Blood-Bridge?tab=readme-ov-file",
-    website: "https://github.com/Sanjai451/Blood-Bridge?tab=readme-ov-file",
+    website: "",
   },
   {
     id: 4,
@@ -53,16 +53,16 @@ const projects: Project[] = [
     technologies: ["React", "Tailwind CSS", "Python", "Flask"],
     image: "https://miro.medium.com/v2/resize:fit:1400/0*xcUmpGXIb-WBH9U0.gif", // Example image
     github: "https://github.com/Sanjai451/Report-Parser-FullStack",
-    website: "https://github.com/Sanjai451/Report-Parser-FullStack",
+    website: "",
   },
   {
     id: 18,
-    name: "My Password Manager",
+    name: "My Password Manager APP",
     description: "A secure mobile app that stores and manages encrypted user passwords for multiple platforms.",
     technologies: ["Java", "XML", "Android"],
     image: "https://lh3.googleusercontent.com/LYUDWiiqyTSiwzbPsJnYhfTzA3kUAoYgRy_1mpKTZOuLtpaMTaNdPKm8Xesm5mxA_zUSIGy6RO4PxhUnIDgTgbmroxgVpudnc0XKWW0cByZXppI2WGo",
     github: "https://github.com/Sanjai451/My-Password-Manager",
-    website: "https://github.com/Sanjai451/My-Password-Manager",
+    website: "https://github.com/Sanjai451/My-Password-Manager/blob/main/My%20Password%20Manager.apk",
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ const projects: Project[] = [
     technologies: ["React", "CSS"],
     image: "https://github.com/Sanjai451/CloneApps/raw/master/YoutubeClone/Screenshot%202024-03-09%20163328.png", // Example image
     github: "https://github.com/Sanjai451/CloneApps/tree/master/YoutubeClone",
-    website: "https://github.com/Sanjai451/CloneApps/tree/master/YoutubeClone",
+    website: "https://meek-valkyrie-21ba02.netlify.app/",
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ const projects: Project[] = [
     technologies: ["React", "CSS"],
     image: "https://github.com/Sanjai451/Project/raw/main/WeatherApp/Screenshot%202024-03-01%20130434.png", // Example image
     github: "https://github.com/Sanjai451/Project/tree/main/WeatherApp",
-    website: "https://github.com/Sanjai451/Project/tree/main/WeatherApp",
+    website: "",
   },
   {
     id: 7,
@@ -98,7 +98,7 @@ const projects: Project[] = [
     technologies: ["React", "Bootstrap"],
     image: "https://github.com/Sanjai451/Project/raw/main/NEWS-APP-REACT-BOOTSTRAP/news-app/Screenshot%202024-03-16%20160827.png", // Example image
     github: "https://github.com/Sanjai451/Project/tree/main/NEWS-APP-REACT-BOOTSTRAP/news-app",
-    website: "https://github.com/Sanjai451/Project/tree/main/NEWS-APP-REACT-BOOTSTRAP/news-app",
+    website: "",
   },
   {
     id: 91,
@@ -107,7 +107,7 @@ const projects: Project[] = [
     technologies: ["JavaScript"],
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbWfIrkyAO6q_77ligCYj7hNqPY7zo7wLOXQ&s",
     github: "https://github.com/Sanjai451/CodeRunnerAPI?tab=readme-ov-file#code-runner-api",
-    website: "https://github.com/Sanjai451/CodeRunnerAPI?tab=readme-ov-file#code-runner-api",
+    website: "",
   },
   {
     id: 10,
@@ -116,7 +116,25 @@ const projects: Project[] = [
     technologies: ["HTML" , "CSS", "JavaScript"],
     image: "https://github.com/Sanjai451/Project/raw/main/bookProApp/Screenshot%202024-03-01%20130807.png", // Example image
     github: "https://github.com/Sanjai451/Project/tree/main/bookProApp",
-    website: "https://github.com/Sanjai451/Project/tree/main/bookProApp",
+    website: "",
+  },
+  {
+    id: 11,
+    name: "Currency Converter Application",
+    description: "Simple Currency Converter", 
+    technologies: ["HTML" , "CSS", "JavaScript"],
+    image: "https://github.com/Sanjai451/Project/raw/main/Currency/Screenshot%202024-03-01%20130625.png", // Example image
+    github: "https://github.com/Sanjai451/Project/tree/main/Currency",
+    website: "https://funny-kitten-7826e8.netlify.app/",
+  },
+  {
+    id: 12,
+    name: "Image Search",
+    description: "Simple image search Engine Application Using Public API", 
+    technologies: ["HTML" , "CSS", "JavaScript"],
+    image: "https://github.com/Sanjai451/Project/blob/main/Image-Search-Engine/Screenshot%202024-03-01%20130903.png?raw=true", // Example image
+    github: "https://github.com/Sanjai451/Project/tree/main/Image-Search-Engine",
+    website: "https://unrivaled-kelpie-782734.netlify.app/",
   },
 
 ];
