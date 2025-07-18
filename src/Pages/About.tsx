@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ShowImage from "../Components/AboutSection/ShowImage";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { ABOUT_DATA1, ABOUT_DATA2, ABOUT_DATA3 } from "../Details/AboutData";
 import RESUME_LINK from "../Details/ResumeLink";
 
